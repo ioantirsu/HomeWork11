@@ -1,0 +1,57 @@
+
+ .logo{
+    float: left;
+    width: 48px;
+    height: 72px;
+    margin-top: 80px;
+    margin-left: 15px;
+  }
+
+.h1 {
+    color:$main-color;
+    font-size: 40px;
+   line-height: 45px;
+ 
+}
+.info {
+    padding-bottom:15px;
+    color:$main-color;
+    line-height: 45px;
+    font-size:$myFonsize;
+    
+}
+
+.h2{
+      color: #001958;
+      font-weight: bold;
+      font-size:$myFonsize;
+      line-height: 45px;
+      text-align: center;
+      width: 98%;
+    }
+
+     
+    p{
+      font-style: normal;
+      font-size:15px;
+      line-height: 30px;
+      font-weight: normal;
+       color: $main-color;
+  
+    }
+    .small {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F4F4F;
+  }
+ 
+   .big { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    color: #828282;
+    margin: 0px;
+  }

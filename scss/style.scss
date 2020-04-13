@@ -1,0 +1,30 @@
+@import "reset";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import "buttons";
+@import "containers";
+@import "config";
+@import "text";
+
+    body{
+      font-family: $font;
+    }
+    
+
+ @include isTablet{ 
+    .box {
+      width: 30%;
+    
+  }
+  
+  
+  }
+           
+   @include isDesktop {
+     
+      .box { 
+        width: 20%;      
+    }
+    
+  }
+  

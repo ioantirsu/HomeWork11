@@ -1,0 +1,51 @@
+@mixin container-proprities {
+         display: flex;
+         height: auto;
+         flex-wrap: wrap;
+   }
+
+  @mixin container-div {
+    padding-left: 20px;
+  }
+  .flex2 {
+      @include container-proprities
+  }
+
+
+    .box{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+  }
+  
+  .flex-container {
+      
+  
+      @include container-proprities;
+     width: 100%;
+    justify-content: left;
+    align-content: space-between;
+     background-image: url("../Rectangle.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+        .div1 {
+            
+            @include container-div;
+        
+    
+            
+        }
+        .div2 {
+            @include container-div;
+              width: 95%;
+              margin: 10px;
+              margin-bottom:100px;
+            text-align: left;
+             line-height: 75px;
+            font-size: 30px;
+        }
+   
+  }

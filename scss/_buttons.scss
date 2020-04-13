@@ -1,0 +1,23 @@
+.button-basic {
+    width: 190px;
+    height: 40px;
+    border-radius: 100px;
+    background: white;
+    font-size: 15px;
+    font-weight: 600;
+    color: #001958;
+}
+
+.button {
+    @extend .button-basic;
+    left: 20px;
+    margin-top:50px;
+}
+
+.button2 {
+    @extend .button-basic;
+     position: absolute;
+     left: 1200px;
+     top: 38px;
+     display: none;
+}
